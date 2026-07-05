@@ -47,7 +47,8 @@ jobs:
     - name: build webroot
       run: |
         cd webui
-        pnpm install --frozen-lockfile
+        pnpm install webuix@0.0.19
+        pnpm install
         pnpm build
 
     - name: Set variables
