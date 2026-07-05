@@ -18,8 +18,8 @@ importers:
         specifier: ^18.0.5
         version: 18.0.5
       webuix:
-        specifier: ^0.0.18
-        version: 0.0.18(typescript@5.9.3)
+        specifier: ^0.0.19
+        version: 0.0.19(typescript@5.9.3)
     devDependencies:
       '@eslint/css':
         specifier: ^1.3.0
@@ -1453,7 +1453,7 @@ snapshots:
       esbuild: 0.27.3
       fsevents: 2.3.3
 
-  webuix@0.0.18(typescript@5.9.3):
+  webuix@0.0.19(typescript@5.9.3):
     dependencies:
       typescript: 5.9.3
 
